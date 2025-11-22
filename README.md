@@ -58,7 +58,7 @@ astro-project/
 
 ### 1️⃣ Clone the Repo
 ```bash
-git clone https://github.com/<your-user>/astro-project
+git clone https://github.com/tripathimanas1/astro-insights
 cd astro-project
 ```
 
