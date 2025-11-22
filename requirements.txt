@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dateutil
+
+# Gemini API SDK
+google-generativeai
+
+# Translation
+deep-translator
+streamlit 
+requests
