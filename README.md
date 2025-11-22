@@ -33,7 +33,7 @@ The system returns:
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 astro-project/
 │── app/
 │   ├── main.py
@@ -50,42 +50,42 @@ astro-project/
 │── requirements.txt
 │── __init__.py
 │── README.md
-\`\`\`
+```
 
 ---
 
 ## 🔧 Setup Instructions
 
 ### 1️⃣ Clone the Repo
-\`\`\`bash
+```bash
 git clone https://github.com/<your-user>/astro-project
 cd astro-project
-\`\`\`
+```
 
 ### 2️⃣ Install Dependencies
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### 3️⃣ Set Your Gemini API Key
-\`\`\`bash
+```bash
 export GEMINI_API_KEY="YOUR_KEY"
-\`\`\`
+```
 
 Windows PowerShell:
-\`\`\`powershell
+```powershell
 setx GEMINI_API_KEY "YOUR_KEY"
-\`\`\`
+```
 
 ### 4️⃣ Run the Backend
-\`\`\`bash
+```bash
 uvicorn app.main:app --reload --port 8000
-\`\`\`
+```
 
 ### 5️⃣ Run the Frontend
-\`\`\`bash
+```bash
 streamlit run streamlit_app.py
-\`\`\`
+```
 
 ---
 
@@ -93,7 +93,7 @@ streamlit run streamlit_app.py
 
 ### POST /insight  
 Request:
-\`\`\`json
+```json
 {
   "name": "Ritika",
   "birth_date": "1995-08-20",
@@ -102,7 +102,7 @@ Request:
   "language": "hi",
   "date_for": "2025-02-01"
 }
-\`\`\`
+```
 
 ---
 
